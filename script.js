@@ -3,10 +3,11 @@ function firstNonRepeatedChar(str) {
 let res = null;
 for (let char of str) {
     if (
-        str.indexOf(char)===str.lastIndexOf(char) {
+        str.indexOf(char)===str.lastIndexOf(char)) {
         res = char;
         break;
     }
+	
 }
 	return res
 }
